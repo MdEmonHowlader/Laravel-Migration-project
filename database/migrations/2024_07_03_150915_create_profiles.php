@@ -13,6 +13,17 @@ return new class extends Migration
     {
         Schema::create('profiles', function (Blueprint $table) {
             $table->id();
+            $table->string('firstName', 50);
+            $table->string('lastName', 50);
+            $table->string('mobile', 50);
+            $table->string('city', 50);
+            $table->string('shippingAddress', 100);
+            $table->string('email', 50)->unique();
+
+            // Reletionship
+            $table->foreign('email')->references('email')->on('users')->restrictOnDelete()->cascadeOnDelete();
+
+
             $table->timestamp('created_at')->useCurrent();
             $table->timestamp('updated_at')->useCurrent()->useCurrentOnUpdate();
         });
