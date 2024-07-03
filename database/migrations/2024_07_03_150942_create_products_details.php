@@ -13,6 +13,21 @@ return new class extends Migration
     {
         Schema::create('products_details', function (Blueprint $table) {
             $table->id();
+
+            $table->string('img1', 200);
+            $table->string('img2', 200);
+            $table->string('img3', 200);
+            $table->string('img4', 200);
+            $table->longText('des');
+            $table->string('color', 200);
+            $table->string('size', 200);
+
+            $table->unsignedBigInteger('product_id')->unique();
+
+            // Relationship
+            $table->foreigne('product_id')->references('id')->on('products')->restrictOnDelete()->cascadeOnUpdate();
+
+
             $table->timestamp('created_at')->useCurrent();
             $table->timestamp('updated_at')->useCurrent()->useCurrentOnUpdate();        });
     }
