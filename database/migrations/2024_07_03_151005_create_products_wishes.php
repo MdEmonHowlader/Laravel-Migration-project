@@ -16,8 +16,8 @@ return new class extends Migration
             $table->string('email', 50);
             $table->unsignedBigInteger('product_id');
 
-            $table->foreigne('product_id')->references('id')->on('products')->restrictOnDelete()->cascadeOnUpdate();
-            $table->foreigne('email')->references('email')->on('profiles')->restrictOnDelete()->cascadeOnUpdate();
+            $table->foreign('product_id')->references('id')->on('products')->restrictOnDelete()->cascadeOnUpdate();
+            $table->foreign('email')->references('email')->on('profiles')->restrictOnDelete()->cascadeOnUpdate();
             $table->timestamp('created_at')->useCurrent();
             $table->timestamp('updated_at')->useCurrent()->useCurrentOnUpdate();
         });
