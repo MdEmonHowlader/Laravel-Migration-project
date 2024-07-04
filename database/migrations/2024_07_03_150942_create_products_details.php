@@ -25,7 +25,7 @@ return new class extends Migration
             $table->unsignedBigInteger('product_id')->unique();
 
             // Relationship
-            $table->foreigne('product_id')->references('id')->on('products')->restrictOnDelete()->cascadeOnUpdate();
+            $table->foreign('product_id')->references('id')->on('products')->restrictOnDelete()->cascadeOnUpdate();
 
 
             $table->timestamp('created_at')->useCurrent();
