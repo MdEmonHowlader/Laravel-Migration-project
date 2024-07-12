@@ -25,6 +25,7 @@
 	<link rel="stylesheet" href="{{asset('css/style.css')}}">
 </head>
 <body>
+    @include('layout.header')
 @include('layout.navbar')
 
 

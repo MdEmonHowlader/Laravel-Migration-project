@@ -11,6 +11,7 @@
                             title="Facebook"><span class="fa fa-facebook"></span></a></li>
                     <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top"
                             title="Instagram"><span class="fa fa-instagram"></span></a></li>
+
                 </ul>
             </div>
             <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
@@ -18,7 +19,8 @@
                 <div class="block-21 mb-4 d-flex">
                     <a class="img mr-4 rounded" style="background-image: url(images/image_1.jpg);"></a>
                     <div class="text">
-                        <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a></h3>
+                        <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a>
+                        </h3>
                         <div class="meta">
                             <div><a href="#"><span class="icon-calendar"></span> April 7, 2020</a></div>
                             <div><a href="#"><span class="icon-person"></span> Admin</a></div>
@@ -29,9 +31,10 @@
                 <div class="block-21 mb-4 d-flex">
                     <a class="img mr-4 rounded" style="background-image: url(images/image_2.jpg);"></a>
                     <div class="text">
-                        <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a></h3>
+                        <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a>
+                        </h3>
                         <div class="meta">
-                            <div><a href="#"><span class="icon-calendar"></span> April 7, 2020</a></div>
+                            <div><a href="#"><span class="icon-calendar"></span> jun 7, 2024</a></div>
                             <div><a href="#"><span class="icon-person"></span> Admin</a></div>
                             <div><a href="#"><span class="icon-chat"></span> 19</a></div>
                         </div>
@@ -69,7 +72,9 @@
                 <p class="copyright">
                     <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                     Copyright &copy;
-                    <script>document.write(new Date().getFullYear());</script> All rights reserved | This template
+                    <script>
+                        document.write(new Date().getFullYear());
+                    </script> All rights reserved | This template
                     is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com"
                         target="_blank">Colorlib.com</a>
                     <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
@@ -81,7 +86,7 @@
 
 <!-- loader -->
 <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
-    <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
-    <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
-        stroke="#F96D00" />
-</svg></div>
+        <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+        <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4"
+            stroke-miterlimit="10" stroke="#F96D00" />
+    </svg></div>
