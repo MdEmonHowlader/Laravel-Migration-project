@@ -31,4 +31,12 @@ class FrontendController extends Controller
     public function Blog(){
         return view('page.blog');
     }
+    public function Login(){
+        return view('auth.login');
+    }
+
+    public function Registration(){
+        return view('auth.registration');
+    }
+
 }

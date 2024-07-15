@@ -23,5 +23,5 @@ Route::get('/gallery', [FrontendController::class, 'Gallery'] );
 Route::get('/pricing', [FrontendController::class, 'Pricing'] );
 Route::get('/blog', [FrontendController::class, 'Blog'] );
 Route::get('/contact', [FrontendController::class, 'Contact'] );
-
-
+Route::get('/login', [FrontendController::class, 'Login'] );
+Route::get('/registration', [FrontendController::class, 'Registration'] );
