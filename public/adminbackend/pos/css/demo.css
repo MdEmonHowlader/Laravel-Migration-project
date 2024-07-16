@@ -1,0 +1,48 @@
+.__announcement-bar {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 99999
+}
+
+.__announcement-bar .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-block: 5px;
+    min-height: 50px;
+    column-gap: 10px;
+    row-gap: 10px;
+    font-weight: 600
+}
+
+.demo {
+    padding-top: 50px
+}
+
+.demo .navbar-vertical-fixed,
+.demo .navbar-fixed {
+    top: 50px
+}
+
+.__announcement-bar .wrapper .click {
+    color: #fff !important;
+    font-weight: 700
+}
+
+@media screen and (max-width:486px) {
+    .demo .navbar-vertical-fixed,
+    .demo .navbar-fixed {
+        top: 96px
+    }
+    .demo {
+        padding-top: 96px
+    }
+}
